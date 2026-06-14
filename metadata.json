@@ -1,0 +1,6 @@
+{
+  "name": "Commercial Realty USA",
+  "description": "Commercial Real Estate Consultants providing Sales, Leasing, Valuation, and Property Consulting across Valdosta and South Georgia.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
