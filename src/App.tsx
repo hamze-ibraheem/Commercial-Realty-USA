@@ -825,6 +825,19 @@ export default function App() {
         )}
       </AnimatePresence>
 
+      {/* Floating CTA */}
+      <a 
+        href="https://auroraadv.co/?tab=wizard"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="fixed bottom-6 right-6 lg:bottom-10 lg:right-10 z-50 w-28 h-28 bg-[#1B2D5B] text-white rounded-full flex items-center justify-center p-3 text-center shadow-[0_4px_20px_rgba(27,45,91,0.4)] border-2 border-[#C9A84C] hover:scale-110 hover:shadow-[0_4px_25px_rgba(201,168,76,0.4)] transition-all duration-300 cursor-pointer group"
+      >
+        <span className="text-[10px] font-bold uppercase tracking-widest leading-snug group-hover:text-[#C9A84C] transition-colors">
+          Get this website <br />
+          <span className="text-[#C9A84C] text-sm block mt-1 font-serif group-hover:text-white transition-colors">for only $999</span>
+        </span>
+      </a>
+
     </div>
   );
 }
